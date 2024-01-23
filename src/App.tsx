@@ -9,6 +9,10 @@ function App() {
   return (
     <>
       <div>
+      <div className="bg-blue-500 text-white p-4">
+      ¡Hola, mundo! Esto debería tener estilos de Tailwind.
+    </div>
+        <h1 className="text-8xl">react</h1>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
